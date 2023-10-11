@@ -120,7 +120,7 @@
   height: 140px;
   width: 630px;
   top: 30px;
-  left: 340px;
+  left: 370px;
   
   border-bottom:3px solid #080808;
 
@@ -130,7 +130,7 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 330px;
+  width: 350px;
   height: 1230px;
   padding-left: 10px;
   
@@ -146,9 +146,10 @@
 
 .address{
   position: absolute;
+  flex-direction: column;
   left: 5px;
   top: 300px;
-  width: 320px;
+  width: 340px;
   height: 130px;
   /* padding-left: 10px; */
   font-family:  initial;
@@ -209,7 +210,7 @@
   width: 630px;
   height: 500px;
   margin-top: 190px;
-  margin-left: 340px;
+  margin-left: 370px;
   border-bottom: #050000 solid;
 }
 
@@ -222,8 +223,8 @@
   height: 360px;
   top: 0;
   left: 0;
-  margin-top: 700px; 
-  margin-left: 340px; 
+  margin-top: 720px; 
+  margin-left: 370px; 
   border-bottom: #050000 solid;
 }
 
@@ -235,7 +236,7 @@
   height: 130px;
   top: 0;
   left: 0;
-  margin-top: 1060px;
+  margin-top: 1080px;
   margin-left: 340px;
   
 }
@@ -246,7 +247,7 @@
 
 
 .medium-text {
-  font-size: 16px;
+  font-size: 17px;
  
   font-family:  initial;
   font-style: italic;
@@ -256,7 +257,7 @@
 
 .warp-text{
   overflow-wrap: break-word;
-  /* white-space: normal ; */
+  white-space: normal ;
   width: 300px;
 
 }
