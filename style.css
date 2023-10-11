@@ -133,7 +133,7 @@
   width: 350px;
   height: 1230px;
   padding-left: 10px;
-  
+  display: flex;
   font-family:  initial;
   font-style: italic;
   font-size: 20px;
@@ -146,7 +146,9 @@
 
 .address{
   position: absolute;
+  display: flex;
   flex-direction: column;
+
   left: 5px;
   top: 300px;
   width: 340px;
@@ -156,11 +158,11 @@
   font-style: italic;
   font-size: 21px;
   font-weight: bolder;
-  /* background: rgb(255, 255, 255); */
+  /* background: rgb(253, 253, 253); */
   color: hsl(0, 0%, 2%);
   border-bottom:2px #080808 solid ;
   /* margin-left: 8px; */
-  margin-top: 2px;
+  /* margin-top: 10px; */
 }
 
 .about{
@@ -169,7 +171,7 @@
   left: 0px;
   top: 450px;
   width: 325px;
-  height: 360px;
+  height: 350px;
   padding-left: 10px;
   display: flexbox;
   font-family:  initial;
@@ -187,7 +189,7 @@
 
   position: absolute;
   left: 0px;
-  top: 840px;
+  top: 830px;
   width: 325px;
   height: 370px;
   padding-left: 10px;
@@ -248,7 +250,6 @@
 
 .medium-text {
   font-size: 17px;
- 
   font-family:  initial;
   font-style: italic;
   
