@@ -163,7 +163,11 @@
   border-bottom:2px #080808 solid ;
   /* margin-left: 8px; */
   /* margin-top: 10px; */
+
 }
+
+
+
 
 .about{
 
@@ -270,6 +274,13 @@
   font-style: italic;
 }
 
+
+@media (max-width: 500px) {
+  .medium-text {
+    font-size: 15px; 
+    transform: scale(0.3);
+  }
+}
 
 
 
