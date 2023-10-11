@@ -9,7 +9,7 @@
   animation: neon1 1.5s ease-in-out infinite alternate;
   color: rgb(4, 28, 250);
   flex-wrap: wrap;
-  /* position: sticky; */
+  
 }
 
 .wrapper {
@@ -30,6 +30,9 @@
   align-items: center;
   perspective: 1000px;
   perspective-origin: 50% 50%;
+
+  
+
 }
 
 @keyframes scroll {
