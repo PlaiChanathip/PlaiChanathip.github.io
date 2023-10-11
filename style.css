@@ -170,11 +170,11 @@
   width: 325px;
   height: 360px;
   padding-left: 10px;
-  
+  display: flexbox;
   font-family:  initial;
   font-style: italic;
   font-size: 20px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   /* background: rgb(255, 255, 255); */
   color: hsl(0, 0%, 2%);
   border-bottom:2px #080808 solid ;
@@ -246,7 +246,7 @@
 
 
 .medium-text {
-  font-size: 17px;
+  font-size: 16px;
  
   font-family:  initial;
   font-style: italic;
