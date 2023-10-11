@@ -21,7 +21,7 @@ instagramIcon.addEventListener("click", function() {
 
 var githubIcon = document.getElementById("github-icon");
 githubIcon.addEventListener("click", function() {
-    window.open( "https://www.youtube.com/", "_blank");
+    window.open( "https://github.com/PlaiChanathip/PlaiChanathip.github.io", "_blank");
     
 });
 
