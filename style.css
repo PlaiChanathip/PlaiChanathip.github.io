@@ -20,8 +20,7 @@
     /* background: url("https://img.freepik.com/free-vector/color-seamless-space-pattern_102902-2360.jpg?size=626&ext=jpg&ga=GA1.1.813377851.1695999149&semt=ais"); */
     background: url("https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?size=626&ext=jpg&ga=GA1.1.813377851.1695999149&semt=ais")  fixed;
     /* background: url("https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?size=626&ext=jpg&ga=GA1.2.813377851.1695999149&semt=sph"); */
-  
-    color: #eee;
+  color: #eee;
   height: 100vh;
   width: 100vw;
   display: flex;
