@@ -11,16 +11,16 @@
   flex-wrap: wrap;
   
 }
-
+  
 .wrapper {
   position: relative;
   animation: scroll 100s linear infinite;
   /* background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"),#111111; */
   /* background: url("https://img.freepik.com/free-photo/blackboard-inscribed-with-scientific-formulas-calculations_1150-19413.jpg?size=626&ext=jpg&ga=GA1.2.813377851.1695999149&semt=ais"); */
     /* background: url("https://img.freepik.com/free-vector/color-seamless-space-pattern_102902-2360.jpg?size=626&ext=jpg&ga=GA1.1.813377851.1695999149&semt=ais"); */
-    background: url("https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?size=626&ext=jpg&ga=GA1.1.813377851.1695999149&semt=ais")  fixed;
+    /* background: url("https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?size=626&ext=jpg&ga=GA1.1.813377851.1695999149&semt=ais")  fixed; */
     /* background: url("https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?size=626&ext=jpg&ga=GA1.2.813377851.1695999149&semt=sph"); */
-  color: #eee;
+  background-color: #eee;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -68,6 +68,8 @@
 }
 
 
+
+
 /* body{
   position: absolute;
   padding: 0;
@@ -92,7 +94,7 @@
   /* margin-top: 200px;
   margin-bottom: 200px; */
   /* margin-top: 30px; */
-  margin-bottom: 30px;
+  margin-bottom: 30vh;
   display: flex;
   /* overflow-y: auto; */
   background: rgb(250,254,255);
@@ -104,7 +106,7 @@
   margin-bottom: 100px;  */
   border-style: solid;
   border-color: rgb(248, 0, 153) ;
-  
+  margin-top: 50vh;
 }
 
 
@@ -707,3 +709,81 @@ html,body{
         cursor: pointer;
       }
     
+
+
+
+
+
+
+
+
+
+      .sample-header {
+        position: fixed;
+        animation: scroll 100s linear infinite;
+        left: 0;
+        top: 0;
+        justify-content: center;
+        background-image: url("https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?size=626&ext=jpg&ga=GA1.1.813377851.1695999149&semt=ais") ;
+        background-position: center;
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        flex-direction: column;
+      }
+      .sample-header::before {
+        content: "";
+        position: absolute;
+        max-width: 100vh;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.3;
+      }
+      .sample-header-section {
+        position: relative;
+        /* padding: 15% 0 10%; */
+        max-width: 100vh;
+        max-width: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: 30vh; */
+        /* margin-right: 50vh; */
+        color: white;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        font-family: "Montserrat", sans-serif;
+      }
+
+
+
+
+      .wrapper {
+        position: relative;
+        animation: scroll 100s linear infinite;
+        /* background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"),#111111; */
+        /* background: url("https://img.freepik.com/free-photo/blackboard-inscribed-with-scientific-formulas-calculations_1150-19413.jpg?size=626&ext=jpg&ga=GA1.2.813377851.1695999149&semt=ais"); */
+          /* background: url("https://img.freepik.com/free-vector/color-seamless-space-pattern_102902-2360.jpg?size=626&ext=jpg&ga=GA1.1.813377851.1695999149&semt=ais"); */
+          /* background: url("https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?size=626&ext=jpg&ga=GA1.1.813377851.1695999149&semt=ais")  fixed; */
+          /* background: url("https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?size=626&ext=jpg&ga=GA1.2.813377851.1695999149&semt=sph"); */
+        background-color: #eee;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        perspective: 1000px;
+        perspective-origin: 50% 50%;
+      
+        
+      
+      }
+      
